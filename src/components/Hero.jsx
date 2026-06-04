@@ -11,8 +11,7 @@ const Hero = () => {
           <h1 className="text-5xl lg:text-7xl font-serif font-black text-dark leading-tight mb-6">
   PRIVAKOM
 </h1>
-
-          <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-3xl leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
+         <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-3xl leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
   Privakom menyediakan pelatihan komputer profesional untuk individu,
   mahasiswa, karyawan dan perusahaan meliputi Microsoft Office, Excel,
   Word, PowerPoint, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis,
