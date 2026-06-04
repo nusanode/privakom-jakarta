@@ -10,7 +10,7 @@ const Navbar = () => {
       
         <div className="flex items-center gap-3 text-3xl font-black text-dark tracking-tight">
           <img src="/logo.svg" alt="Privakom Logo" className="h-8 w-auto" />
-          Privakom
+          PRIVAKOM
         </div>
 
         <div className="hidden md:flex items-center space-x-4 font-bold text-base text-dark">
