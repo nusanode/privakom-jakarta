@@ -65,7 +65,7 @@ const Hero = () => {
                 500+
               </div>
               <div className="text-sm font-bold text-gray-500 mt-1">
-                Happy Students
+                Alumni Pelatihan
               </div>
             </div>
           </div>
