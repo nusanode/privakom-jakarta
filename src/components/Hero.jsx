@@ -25,7 +25,7 @@ const Hero = () => {
             href="#courses"
             className="inline-flex items-center gap-4 bg-dark text-white rounded-full px-10 py-5 font-extrabold text-base shadow-xl shadow-dark/20 hover:shadow-2xl hover:-translate-y-2 active:scale-95 transition-all duration-300 group"
           >
-            Start Learning Today
+            Lihat Program Pelatihan
             <svg
               className="w-6 h-6 group-hover:translate-x-2 transition-transform"
               fill="none"
