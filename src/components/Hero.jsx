@@ -11,12 +11,12 @@ const Hero = () => {
         <h1 className="text-4xl lg:text-6xl font-serif font-black text-dark leading-tight mb-8 drop-shadow-sm">
   Kursus Komputer, Microsoft Office, Excel, AutoCAD, Accounting & Cyber Security
 </h1>
-         <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-3xl leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
-  Privakom menyediakan pelatihan komputer profesional untuk individu,
-  mahasiswa, karyawan dan perusahaan meliputi Microsoft Office, Excel,
-  Word, PowerPoint, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis,
+         <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-3xl leading-relaxed">
+  Privakom menyediakan pelatihan Microsoft Office, Excel, Word,
+  PowerPoint, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis,
   Photoshop, CorelDraw, Web Design, Web Programming, Teknisi Komputer,
-  Cyber Security dan Inhouse Training Komputer di Indonesia.
+  Cyber Security dan Inhouse Training Komputer untuk individu maupun
+  perusahaan di Indonesia.
 </p>
 
           <a
