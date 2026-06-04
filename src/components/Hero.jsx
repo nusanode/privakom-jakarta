@@ -8,8 +8,8 @@ const Hero = () => {
 
         <div className="lg:w-1/2 z-10 py-10">
 
-          <h1 className="text-6xl lg:text-[7.5rem] font-serif font-black text-dark leading-[1.1] mb-8 drop-shadow-sm">
-  Privakom.
+          <h1 className="text-4xl lg:text-6xl font-serif font-black text-dark leading-tight mb-8 drop-shadow-sm">
+  Kursus Komputer, Microsoft Office, Excel, AutoCAD, Accounting & Cyber Security
 </h1>
 
    
