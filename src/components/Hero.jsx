@@ -13,11 +13,13 @@ const Hero = () => {
 </h1>
 
    
-          <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-lg leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
-            Program aktivitas yang dirancang untuk mendukung proses belajar,
-            mengembangkan keterampilan, dan menggali potensi terbaik setiap
-            individu.
-          </p>
+          <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-3xl leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
+  Privakom menyediakan pelatihan komputer profesional untuk individu,
+  mahasiswa, karyawan dan perusahaan meliputi Microsoft Office, Excel,
+  Word, PowerPoint, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis,
+  Photoshop, CorelDraw, Web Design, Web Programming, Teknisi Komputer,
+  Cyber Security dan Inhouse Training Komputer di Indonesia.
+</p>
 
           <a
             href="#courses"
