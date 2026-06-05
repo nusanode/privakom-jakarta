@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <main className="relative w-full min-h-[90vh] flex items-center bg-white overflow-hidden">
    
-      <div className="absolute top-0 right-0 w-full lg:w-[85%] h-full bg-primary z-0 lg:rounded-l-[4rem] shadow-sm"></div>
+     <div className="absolute top-0 right-0 w-full lg:w-[85%] h-full bg-gradient-to-r from-white to-yellow-50">  
 
       <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between pt-20 pb-28">
 
