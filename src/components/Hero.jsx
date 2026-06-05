@@ -7,16 +7,18 @@ const Hero = () => {
       <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between pt-20 pb-28">
 
         <div className="lg:w-1/2 z-10 py-10">
-
-        <h1 className="text-4xl lg:text-6xl font-serif font-black text-dark leading-tight mb-8 drop-shadow-sm">
-  Kursus Komputer, Microsoft Office, Excel, AutoCAD, Accounting & Cyber Security
+        <div className="inline-block px-4 py-2 mb-6 rounded-full bg-yellow-100 text-yellow-700 text-sm font-semibold">
+  LEMBAGA KURSUS & PELATIHAN KOMPUTER
+</div>
+        <h1 className="text-4xl lg:text-6xl font-serif font-black text-dark leading-tight mb-6">
+  Kursus Komputer &
+  <br />
+  Pelatihan Profesional
 </h1>
-         <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-3xl leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
+         <p className="text-lg lg:text-xl text-gray-600 mb-10 max-w-xl leading-relaxed">
   Privakom menyediakan pelatihan komputer profesional untuk individu,
-  mahasiswa, karyawan dan perusahaan meliputi Microsoft Office, Excel,
-  Word, PowerPoint, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis,
-  Photoshop, CorelDraw, Web Design, Web Programming, Teknisi Komputer,
-  Cyber Security dan Inhouse Training Komputer di Indonesia.
+  mahasiswa, karyawan dan perusahaan dengan instruktur berpengalaman
+  serta kurikulum yang mengikuti kebutuhan industri.
 </p>
 
           <a
