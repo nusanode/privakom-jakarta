@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-6 left-0 right-0 z-50 w-full px-4 lg:px-12 transition-all">
       
-        <div className="flex items-center gap-3 text-3xl font-black text-dark tracking-tight">
+        <div className="max-w-7xl mx-auto bg-white/70 backdrop-blur-md border border-white/50 shadow-lg shadow-cyan-900/5 rounded-full py-3 px-6 lg:px-8 flex items-center justify-between">
           <img src="/logo.svg" alt="Privakom Logo" className="h-8 w-auto" />
           PRIVAKOM
         </div>
