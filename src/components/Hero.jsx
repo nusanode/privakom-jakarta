@@ -1,16 +1,24 @@
 const Hero = () => {
   return (
-    <main className="relative w-full min-h-screen flex items-center">yg 
-   
-     <div className="absolute top-0 right-0 w-full lg:w-[85%] h-full bg-gradient-to-r from-white to-yellow-50">  
+    <main className="relative w-full min-h-screen pt-32 pb-20 bg-slate-50 overflow-hidden flex items-center">
 
-      <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between pt-20 pb-28">
 
-        <div className="lg:w-1/2 z-10 py-10">
-        <div className="inline-block px-4 py-2 mb-6 rounded-full bg-yellow-100 text-yellow-700 text-sm font-semibold">
-  LEMBAGA KURSUS & PELATIHAN KOMPUTER
-</div>
-        <h1 className="text-4xl lg:text-6xl font-serif font-black text-dark leading-tight mb-6">
+      <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-[#00AEEF]/30 rounded-full mix-blend-multiply filter blur-[80px] opacity-70"></div>
+
+      <div className="absolute bottom-[10%] right-[-5%] w-96 h-96 bg-[#FCE300]/40 rounded-full mix-blend-multiply filter blur-[80px] opacity-70"></div>
+
+      <div className="px-4 lg:px-12 max-w-7xl mx-auto w-full relative z-10">
+
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+       
+          <div className="md:col-span-8 bg-white/60 backdrop-blur-xl border border-white/60 p-10 lg:p-14 rounded-[2.5rem] shadow-xl shadow-cyan-900/5 flex flex-col justify-center relative overflow-hidden">
+     
+            <div className="absolute top-8 right-8 flex gap-2 opacity-30">
+              <span className="w-2 h-2 rounded-full bg-[#00AEEF]"></span>
+              <span className="w-2 h-2 rounded-full bg-[#FCE300]"></span>
+            </div>
+        
+            <h1 className="text-4xl lg:text-6xl font-serif font-black text-dark leading-tight mb-6">
   Kursus Komputer &
   <br />
   Pelatihan Profesional
