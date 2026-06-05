@@ -5,8 +5,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-sm transition-all w-full">
-      <div className="flex items-center justify-between py-4 px-6 lg:px-12 max-w-8xl mx-auto w-full">
+    <nav className="fixed top-6 left-0 right-0 z-50 w-full px-4 lg:px-12 transition-all">
       
         <div className="flex items-center gap-3 text-3xl font-black text-dark tracking-tight">
           <img src="/logo.svg" alt="Privakom Logo" className="h-8 w-auto" />
