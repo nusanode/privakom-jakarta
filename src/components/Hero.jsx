@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <main className="relative w-full min-h-[90vh] flex items-center bg-white overflow-hidden">
+    <main className="relative w-full min-h-screen flex items-center">yg 
    
      <div className="absolute top-0 right-0 w-full lg:w-[85%] h-full bg-gradient-to-r from-white to-yellow-50">  
 
