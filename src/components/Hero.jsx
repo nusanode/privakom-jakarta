@@ -16,7 +16,7 @@ const Hero = () => {
 
 
 
-        <div className="lg:w-1/2 z-10 py-10">
+        <div className="lg:w-1/2 z-10 py-2">
 
 
 
