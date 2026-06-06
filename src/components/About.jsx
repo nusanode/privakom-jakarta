@@ -53,13 +53,13 @@ const About = () => {
           <div className="flex items-center gap-3 mb-8">
             <div className="h-1.5 w-8 bg-primary rounded-full"></div>
             <span className="text-primary font-extrabold tracking-wider text-sm uppercase">
-              About Privakom
+              Tentang Privakom
             </span>
           </div>
 
           {/* Judul Font Ramah */}
           <h2 className="text-5xl lg:text-7xl font-black text-dark mb-8 leading-[1.1]">
-  Kursus Komputer Profesional di Tangerang
+  Kursus Komputer Profesional 
 </h2>
 
           <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-6 leading-relaxed">
