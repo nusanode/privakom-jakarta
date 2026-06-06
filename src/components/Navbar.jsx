@@ -14,17 +14,58 @@ const Navbar = () => {
 
     <nav className="sticky top-0 z-50 bg-white shadow-sm transition-all w-full">
 
-      <div className="flex items-center justify-between py-4 px-6 lg:px-12 max-w-8xl mx-auto w-full">
+       <div className="relative group">
+  <button className="flex items-center gap-3 text-3xl font-black text-dark tracking-tight">
+    <img src="/logo.svg" alt="Privakom Logo" className="h-8 w-auto" />
+    PRIVAKOM
 
-      
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </button>
 
-        <div className="flex items-center gap-3 text-3xl font-black text-dark tracking-tight">
+  <div className="absolute left-0 top-full mt-3 w-64 bg-white rounded-3xl shadow-2xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden">
 
-          <img src="/logo.svg" alt="Privakom Logo" className="h-8 w-auto" />
+    <a
+      href="#about"
+      className="block px-6 py-4 font-bold text-gray-700 hover:bg-primary/10"
+    >
+      Tentang Kami
+    </a>
 
-          Privakom
+    <a
+      href="#courses"
+      className="block px-6 py-4 font-bold text-gray-700 hover:bg-primary/10"
+    >
+      Program Kursus
+    </a>
 
-        </div>
+    <a
+      href="#students"
+      className="block px-6 py-4 font-bold text-gray-700 hover:bg-primary/10"
+    >
+      Testimoni Alumni
+    </a>
+
+    <a
+      href="#contact"
+      className="block px-6 py-4 font-bold text-gray-700 hover:bg-primary/10"
+    >
+      Hubungi Kami
+    </a>
+
+  </div>
+</div>
 
 
 
