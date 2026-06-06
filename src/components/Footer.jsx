@@ -16,9 +16,7 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-400 font-medium text-lg leading-relaxed mb-10 max-w-xl">
-              Memberdayakan pikiran melalui pembelajaran interaktif berbasis
-              permainan. Bergabunglah dengan komunitas kami dan temukan cara
-              baru untuk mengembangkan keterampilan Anda.
+             Privakom merupakan lembaga pelatihan komputer profesional yang menyediakan kursus Microsoft Office, Excel, Power BI, AutoCAD, Desain Grafis, Web Design, Teknisi Komputer, Networking, Cyber Security, serta Inhouse Training Perusahaan di Indonesia.  
             </p>
 
     
