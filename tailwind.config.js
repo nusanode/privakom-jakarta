@@ -11,7 +11,7 @@ export default {
         serif: ['"Playfair Display"', 'serif'], // Tambahan font serif untuk judul
       },
       colors: {
-        primary: '#00AEEF',  // Kuning Editorial yang sangat cerah
+        primary: '#FCE300',  // Kuning Editorial yang sangat cerah
         dark: '#111111',      // Hitam pekat untuk teks utama
         light: '#FFFFFF',     // Putih bersih
       },
