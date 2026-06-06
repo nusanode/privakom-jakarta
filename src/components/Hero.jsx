@@ -39,7 +39,11 @@ const Hero = () => {
 
 
       <h1 className="text-6xl lg:text-[7.5rem] font-serif font-black text-dark leading-[1.1] mb-8 drop-shadow-sm">
-
+      <h2 className="hidden">
+  Kursus Microsoft Office, Excel, Power BI, AutoCAD, Desain Grafis,
+  Web Design, Teknisi Komputer, Networking, Cyber Security dan
+  Inhouse Training Perusahaan
+</h2>
 
 
         Privakom.
@@ -47,6 +51,7 @@ const Hero = () => {
 
 
       </h1>
+      
 
 
 
@@ -88,7 +93,7 @@ const Hero = () => {
 
             href="#courses"
 
-            className="inline-flex items-center gap-4 bg-dark text-white rounded-full px-10 py-5 font-extrabold text-base shadow-xl shadow-dark/20 hover:shadow-2xl hover:-translate-y-2 active:scale-95 transition-all duration-300 group"
+           className="inline-flex items-center gap-4 bg-primary text-dark rounded-full px-10 py-5 font-extrabold text-base shadow-xl shadow-primary/30 hover:bg-yellow-300 hover:shadow-2xl hover:-translate-y-2 active:scale-95 transition-all duration-300 group" 
 
           >
 
