@@ -58,18 +58,19 @@ const About = () => {
           </div>
 
           {/* Judul Font Ramah */}
+          <h3 className="hidden">
+  Kursus Komputer, Microsoft Office, Excel, AutoCAD, Desain Grafis, Web Design, Cyber Security dan Pelatihan Digital Profesional di Indonesia
+</h3>
           <h2 className="text-5xl lg:text-7xl font-black text-dark mb-8 leading-[1.1]">
   Kursus Komputer Profesional 
 </h2>
 
          <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-6 leading-relaxed">
-  Privakom merupakan lembaga kursus komputer dan pelatihan digital yang menyediakan program Microsoft Office, Excel, Power BI, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis, Web Design, Teknisi Komputer, Networking, dan Cyber Security.
-</p> 
+  Privakom adalah lembaga kursus komputer dan pelatihan digital yang telah membantu pelajar, mahasiswa, karyawan, profesional, dan perusahaan meningkatkan keterampilan teknologi untuk menghadapi kebutuhan dunia kerja modern.
+</p>
 
 <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-12 leading-relaxed">
-  Didukung instruktur berpengalaman dan metode pembelajaran praktik langsung,
-  peserta dapat meningkatkan keterampilan kerja maupun kebutuhan bisnis secara
-  efektif dan terukur.
+  Kami menyediakan program Microsoft Office, Excel, Power BI, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis, Web Design, Teknisi Komputer, Networking, Cyber Security, Digital Marketing, hingga Inhouse Training Perusahaan dengan metode belajar praktik langsung dan instruktur berpengalaman.
 </p>
 
           <ul className="space-y-4 mb-14">
