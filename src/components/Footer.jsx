@@ -3,7 +3,7 @@ const Footer = () => {
 const currentYear = new Date().getFullYear();
 
 return (
-<footer className="bg-dark text-white pt-20 pb-10 w-[95%] max-w-8xl mx-auto relative rounded-[2.5rem] lg:rounded-[3rem] mt-12 mb-8 border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.25)]">
+<footer className="bg-slate-900 text-white pt-20 pb-10 w-full relative rounded-t-[2.5rem] lg:rounded-t-[3rem] overflow-hidden mt-12">
 
   <div className="px-6 lg:px-12 max-w-8xl mx-auto">
 
