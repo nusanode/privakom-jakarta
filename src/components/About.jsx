@@ -106,8 +106,8 @@ const About = () => {
                 </svg>
               </div>
               <span className="text-dark font-bold text-lg">
-                Progress Tracking
-              </span>
+  Sertifikat Pelatihan
+</span>
             </li>
             <li className="flex items-center gap-4 rounded-2xl p-4 bg-gray-50 border border-gray-100 hover:bg-primary/10 hover:border-primary/20 transition-all duration-300 cursor-default group/list">
               <div className="text-primary bg-white p-2 rounded-xl shadow-sm group-hover/list:scale-110 transition-transform">
@@ -126,8 +126,8 @@ const About = () => {
                 </svg>
               </div>
               <span className="text-dark font-bold text-lg">
-                Expert Curriculum
-              </span>
+  Materi Sesuai Kebutuhan Industri
+</span>
             </li>
           </ul>
 
