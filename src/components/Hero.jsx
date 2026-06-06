@@ -171,13 +171,13 @@ const Hero = () => {
 
               <div className="text-4xl font-black text-dark tracking-tight leading-none">
 
-                500+
+                10.000+
 
               </div>
 
               <div className="text-sm font-bold text-gray-500 mt-1">
 
-                Happy Students
+                Peserta Pelatihan
 
               </div>
 
