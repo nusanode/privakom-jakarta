@@ -37,6 +37,9 @@ const About = () => {
                 <p className="text-lg font-black text-dark tracking-tight leading-tight mb-1">
                   LKP PRIVAKOM
                 </p>
+                <p className="text-sm text-gray-500 mt-2">
+                  Lembaga Kursus dan Pelatihan Komputer      
+                </p>
 
                 <div className="inline-block mt-1 bg-primary/20 text-dark px-2 py-1 rounded-md text-xs font-extrabold">
                   NPSN: K9999519
@@ -135,7 +138,7 @@ const About = () => {
             href="#courses"
             className="inline-flex items-center gap-3 bg-primary text-dark font-extrabold px-10 py-4 rounded-full shadow-lg shadow-primary/40 hover:shadow-xl hover:-translate-y-1 active:scale-95 transition-all text-base group"
           >
-            Learn More
+            Lihat Program Kursus
             <svg
               className="w-5 h-5 group-hover:translate-x-1 transition-transform"
               fill="none"
