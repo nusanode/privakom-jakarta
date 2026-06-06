@@ -21,7 +21,7 @@ return (
 
           <img src="/logo.svg" alt="Privakom Logo" className="h-8 w-auto" />
 
-          Privakom.
+          PRIVAKOM.
 
         </div>
 
