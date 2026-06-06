@@ -2,43 +2,24 @@ const Hero = () => {
 
   return (
 
-    <main className="relative w-full min-h-[80vh] flex items-center bg-white overflow-hidden">
-   
-
-      <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-[#00AEEF]/20 rounded-full blur-[100px]"></div>
-
-
-      <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-[#FCE300]/20 rounded-full blur-[100px]"></div>
-
-
-
-      <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between pt-0 pb-20">
-
-
-
-        <div className="lg:w-1/2 z-10 py-2">
-
-
-
-          <h1 className="text-6xl lg:text-[7.5rem] font-serif font-black text-dark leading-[1.1] mb-8 drop-shadow-sm">
-
-            Privakom.
-
-          </h1>
+    
 
 
 
    
 
-          <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-lg leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
+          <h1 className="text-6xl lg:text-[7rem] font-black text-dark leading-[1.05] mb-6">
+  PRIVAKOM
+</h1>
 
-            Program aktivitas yang dirancang untuk mendukung proses belajar,
+<p className="text-[#00AEEF] font-bold uppercase tracking-[4px] mb-4">
+  Learning • Technology • Innovation
+</p>
 
-            mengembangkan keterampilan, dan menggali potensi terbaik setiap
-
-            individu.
-
-          </p>
+<p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-xl leading-relaxed">
+  Pusat pelatihan komputer dan pengembangan keterampilan digital
+  untuk individu, profesional, dan perusahaan.
+</p>
 
 
 
@@ -50,7 +31,7 @@ const Hero = () => {
 
           >
 
-            Start Learning Today
+            Lihat Program Pelatihan 
 
             <svg
 
