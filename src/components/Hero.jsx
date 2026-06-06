@@ -10,7 +10,7 @@ const Hero = () => {
 
 
 
-      <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between pt-20 pb-28">
+      <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between pt-6 pb-20">
 
 
 
