@@ -3,10 +3,12 @@ const Hero = () => {
   return (
 
     <main className="relative w-full min-h-[80vh] flex items-center bg-white overflow-hidden">
-
    
 
-      <div className="absolute top-0 right-0 w-full lg:w-[85%] h-full bg-primary z-0 lg:rounded-l-[4rem] shadow-sm"></div>
+      <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-[#00AEEF]/20 rounded-full blur-[100px]"></div>
+
+
+      <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-[#FCE300]/20 rounded-full blur-[100px]"></div>
 
 
 
