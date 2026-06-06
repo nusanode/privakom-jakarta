@@ -78,9 +78,52 @@ const Footer = () => {
 
           <div className="lg:col-span-1">
             <h4 className="font-extrabold text-2xl text-white mb-8">
-              Quick Links
-            </h4>
-            <ul className="space-y-4">
+  Cabang Privakom
+</h4>
+
+<ul className="space-y-4">
+  <li className="group">
+    <a
+      href="https://jakarta.privakom.co.id/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-gray-400 font-bold text-base hover:text-primary transition-colors"
+    >
+      <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 mr-2 text-primary">
+        ➔
+      </span>
+      Privakom Jakarta
+    </a>
+  </li>
+
+  <li className="group">
+    <a
+      href="https://karawang.privakom.co.id/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-gray-400 font-bold text-base hover:text-primary transition-colors"
+    >
+      <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 mr-2 text-primary">
+        ➔
+      </span>
+      Privakom Karawang
+    </a>
+  </li>
+
+  <li className="group">
+    <a
+      href="https://tangerang.privakom.co.id/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-gray-400 font-bold text-base hover:text-primary transition-colors"
+    >
+      <span className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 mr-2 text-primary">
+        ➔
+      </span>
+      Privakom Tangerang
+    </a>
+  </li>
+</ul>
               <li className="group">
              
                 <a
