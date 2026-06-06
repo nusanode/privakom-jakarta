@@ -38,7 +38,7 @@ const About = () => {
                   LKP PRIVAKOM
                 </p>
                 <p className="text-sm text-gray-500 mt-2">
-                  Lembaga Kursus dan Pelatihan Komputer      
+                  Lembaga Kursus dan Pelatihan Komputer Profesional     
                 </p>
 
                 <div className="inline-block mt-1 bg-primary/20 text-dark px-2 py-1 rounded-md text-xs font-extrabold">
@@ -62,11 +62,9 @@ const About = () => {
   Kursus Komputer Profesional 
 </h2>
 
-          <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-6 leading-relaxed">
-  Privakom Tangerang adalah lembaga kursus komputer yang menyediakan pelatihan
-  Microsoft Office, Excel, Power BI, AutoCAD, Desain Grafis, Web Design,
-  Accounting, Accurate, Zahir, Networking, Teknisi Komputer dan Cyber Security.
-</p>
+         <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-6 leading-relaxed">
+  Privakom merupakan lembaga kursus komputer dan pelatihan digital yang menyediakan program Microsoft Office, Excel, Power BI, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis, Web Design, Teknisi Komputer, Networking, dan Cyber Security.
+</p> 
 
 <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-12 leading-relaxed">
   Didukung instruktur berpengalaman dan metode pembelajaran praktik langsung,
