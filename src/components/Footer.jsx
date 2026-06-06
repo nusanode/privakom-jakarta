@@ -72,14 +72,12 @@ return (
           </a>
 
           <a
-
-            href="#"
-
-            aria-label="Instagram"
-
-            className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-dark hover:scale-110 active:scale-95 transition-all text-white"
-
-          >
+  href="https://www.instagram.com/privakom?igsh=bWN1OHpuZTl2bjV5"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Instagram"
+  className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-dark hover:scale-110 active:scale-95 transition-all text-white"
+>
 
             <svg
 
