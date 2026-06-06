@@ -8,7 +8,7 @@ const Hero = () => {
 
    
 
-          <h1 className="text-6xl lg:text-[7rem] font-black text-dark leading-[1.05] mb-6">
+    <h1 className="text-6xl lg:text-[7rem] font-black text-dark leading-[1.05] mb-6">
   PRIVAKOM
 </h1>
 
