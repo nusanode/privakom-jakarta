@@ -58,18 +58,21 @@ const About = () => {
           </div>
 
           {/* Judul Font Ramah */}
-          <h2 className="text-5xl lg:text-7xl font-black text-dark mb-8 leading-[1.1] drop-shadow-sm">
-            Empowering The Next Generation.
-          </h2>
+          <h2 className="text-5xl lg:text-7xl font-black text-dark mb-8 leading-[1.1]">
+  Kursus Komputer Profesional di Tangerang
+</h2>
 
           <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-6 leading-relaxed">
-            Di Privakom, kami percaya bahwa proses belajar harus terasa menarik
-            dan menginspirasi. Kurikulum inovatif kami dirancang untuk
-            membangkitkan rasa ingin tahu.
-          </p>
-          <p className="text-xl lg:text-2xl text-gray-600 font-medium mb-12 leading-relaxed">
-            Membangun keterampilan praktis menggunakan metode interaktif modern.
-          </p>
+  Privakom Tangerang adalah lembaga kursus komputer yang menyediakan pelatihan
+  Microsoft Office, Excel, Power BI, AutoCAD, Desain Grafis, Web Design,
+  Accounting, Accurate, Zahir, Networking, Teknisi Komputer dan Cyber Security.
+</p>
+
+<p className="text-xl lg:text-2xl text-gray-600 font-medium mb-12 leading-relaxed">
+  Didukung instruktur berpengalaman dan metode pembelajaran praktik langsung,
+  peserta dapat meningkatkan keterampilan kerja maupun kebutuhan bisnis secara
+  efektif dan terukur.
+</p>
 
           <ul className="space-y-4 mb-14">
             <li className="flex items-center gap-4 rounded-2xl p-4 bg-gray-50 border border-gray-100 hover:bg-primary/10 hover:border-primary/20 transition-all duration-300 cursor-default group/list">
