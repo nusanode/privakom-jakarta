@@ -1,17 +1,53 @@
+import { useState } from 'react';
 import { contactData } from '../data/database';
 
 const FloatingWhatsApp = () => {
-  const defaultMessage = "Halo tim Privakom, saya ingin bertanya mengenai program kursus.";
+  const [showBranches, setShowBranches] = useState(false);
+
+  const defaultMessage =
+    "Halo tim Privakom, saya ingin bertanya mengenai program kursus.";
   
   const jakartaBranch = contactData.locations.find((loc) => loc.id === "jkt");
   const phoneNumber = jakartaBranch.whatsapp.replace(/\D/g, "");
 
   return (
-    <div className="fixed bottom-6 right-6 lg:bottom-10 lg:right-10 z-50 flex flex-col items-end">
-      <a
-        href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`}
-        target="_blank"
-        rel="noopener noreferrer"
+  <div className="fixed bottom-6 right-6 lg:bottom-10 lg:right-10 z-50 flex flex-col items-end">
+
+    {showBranches && (
+      <div className="mb-4 w-64 bg-white rounded-3xl shadow-2xl border border-gray-100 p-3 flex flex-col gap-2">
+
+        <a
+          href="https://wa.me/6281234507262"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-3 rounded-2xl hover:bg-primary font-bold transition-all"
+        >
+          📍 Jakarta
+        </a>
+
+        <a
+          href="https://wa.me/6285186857506"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-3 rounded-2xl hover:bg-primary font-bold transition-all"
+        >
+          📍 Tangerang
+        </a>
+
+        <a
+          href="https://wa.me/6282277779504"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-3 rounded-2xl hover:bg-primary font-bold transition-all"
+        >
+          📍 Karawang
+        </a>
+
+      </div>
+    )}
+   
+      <button
+  onClick={() => setShowBranches(!showBranches)}
         className="bg-[#25D366] text-white p-4 lg:p-5 rounded-full shadow-lg shadow-[#25D366]/40 hover:shadow-2xl hover:shadow-[#25D366]/60 hover:-translate-y-1 active:scale-90 transition-all flex items-center justify-center group relative z-50 outline-none"
         aria-label="WhatsApp"
       >
@@ -26,7 +62,7 @@ const FloatingWhatsApp = () => {
         <span className="absolute right-full mr-4 bg-white text-dark shadow-md font-bold text-xs px-4 py-2 rounded-xl opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
           Chat with us! 
         </span>
-      </a>
+      </button>
     </div>
   );
 };
