@@ -58,7 +58,7 @@ return (
 
 
 
-        About Us
+        Tentang Kami
 
 
 
@@ -82,7 +82,7 @@ return (
 
 
 
-        Courses
+        Program Pelatihan
 
 
 
@@ -106,7 +106,7 @@ return (
 
 
 
-        Students
+        Testimoni
 
 
 
@@ -130,7 +130,7 @@ return (
 
 
 
-        Contact
+        Kontak
 
 
 
@@ -174,7 +174,7 @@ return (
 
 
 
-        Join Now
+        Daftar Sekarang
 
 
 
@@ -382,7 +382,7 @@ return (
 
 
 
-        About Us
+        Tentang Kami
 
 
 
@@ -410,7 +410,7 @@ return (
 
 
 
-        Courses
+        Program Pelatihan
 
 
 
@@ -438,7 +438,7 @@ return (
 
 
 
-        Students
+        Testimoni
 
 
 
@@ -466,7 +466,7 @@ return (
 
 
 
-        Contact
+        Kontak 
 
 
 
@@ -502,7 +502,7 @@ return (
 
 
 
-          Join Now
+          Daftar Sekarang
 
 
 
