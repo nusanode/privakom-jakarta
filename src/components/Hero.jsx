@@ -35,7 +35,7 @@ const Hero = () => {
   <h2 className="hidden">
     Kursus Microsoft Office, Excel, Power BI, AutoCAD,
     Desain Grafis, Web Design, Teknisi Komputer,
-    Networking, Cyber Security dan Inhouse Training Perusahaan
+    Networking, Cyber Security dan Inhouse Training Perusahaan Seluruh Indonesia 
   </h2>
 
   <h1 className="text-6xl lg:text-[7.5rem] font-serif font-black text-dark leading-[1.1] mb-8 drop-shadow-sm">
