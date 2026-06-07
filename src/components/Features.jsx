@@ -9,11 +9,11 @@ const Features = () => {
           className="bg-primary text-dark p-8 lg:p-10 rounded-3xl shadow-xl shadow-primary/30 hover:shadow-2xl hover:shadow-primary/40 hover:-translate-y-2 transition-all duration-300 relative overflow-hidden flex flex-col justify-between h-64 lg:h-72 focus:outline-none group cursor-default"
         >
           <h3 className="text-4xl font-black font-serif text-dark z-10 leading-tight">
-            Bright
+            Belajar 
             <br />
-            Starts For
+            Berkembang
             <br />
-            Minds.
+            Berprestasi.
           </h3>
         
           <svg
@@ -35,16 +35,16 @@ const Features = () => {
             <h3 className="text-5xl font-black text-dark mb-2">20+</h3>
          
             <p className="text-gray-500 font-bold text-sm mb-6 leading-relaxed">
-              Learning
+              Program 
               <br />
-              Activities
+              Pelatihan 
             </p>
          
             <a
               href="#courses"
               className="text-dark font-extrabold text-sm bg-gray-50 hover:bg-primary rounded-full inline-flex items-center gap-2 w-max px-4 py-2 transition-all outline-none active:scale-95"
             >
-              Join Now
+              Daftar Sekarang 
               <svg
                 className="w-4 h-4 group-hover:translate-x-1 transition-transform"
                 fill="none"
@@ -65,7 +65,7 @@ const Features = () => {
             <img
               loading="lazy"
               src="foto-1.jpeg"
-              alt="Student learning"
+              alt="Peserta Pelatihan"
               className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
             />
           </div>
@@ -100,12 +100,12 @@ const Features = () => {
             </div>
             
             <p className="text-sm font-bold text-gray-300 mt-6">
-              Expert Instructors
+              Instruktur Profesional
             </p>
           </div>
           
           <p className="text-sm text-gray-400 font-medium mt-2 leading-relaxed border-t border-gray-700/50 pt-4">
-            Industry professionals guiding your educational journey.
+         Instruktur berpengalaman siap membimbing peserta hingga menguasai keterampilan yang dibutuhkan dunia kerja.   
           </p>
         </div>
       </div>
