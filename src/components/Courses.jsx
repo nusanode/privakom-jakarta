@@ -3,13 +3,13 @@ import { coursesData, contactData } from '../data/database';
 
 const Courses = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeCategory, setActiveCategory] = useState('All Courses');
+  const [activeCategory, setActiveCategory] = useState('Semua Program');
   const [selectedCourse, setSelectedCourse] = useState(null);
   
   const [viewMode, setViewMode] = useState('grid');
   const [visibleCount, setVisibleCount] = useState(3); 
 
-  const categories = ['All Courses', ...new Set(coursesData.map(course => course.category))];
+  const categories = ['Semua Program', ...new Set(coursesData.map(course => course.category))];
 
   const allFilteredCourses = coursesData.filter(course => {
     const matchesCategory = activeCategory === 'All Courses' || course.category === activeCategory;
@@ -83,10 +83,10 @@ const Courses = () => {
         <div className="mb-8 md:mb-0">
           <div className="flex items-center gap-3 mb-4">
             <div className="h-1 w-8 bg-primary rounded-full"></div>
-            <span className="text-primary font-extrabold text-sm uppercase tracking-wider">Discover Your Path</span>
+            <span className="text-primary font-extrabold text-sm uppercase tracking-wider">Temukan Jalur Belajarmu</span>
           </div>
           <h2 className="text-5xl lg:text-7xl font-black text-dark leading-[1.1]">
-            Explore<br />Courses.
+            Program<br />Pelatihan.
           </h2>
         </div>
         
@@ -166,7 +166,7 @@ const Courses = () => {
                 <div className="relative h-56 overflow-hidden bg-primary/10 flex items-center justify-center shrink-0 w-full">
                   {index === 0 && activeCategory === 'All Courses' && !searchTerm && (
                     <div className="absolute top-4 right-4 z-20 bg-red-500 text-white rounded-full px-4 py-1 text-xs font-black uppercase tracking-wider animate-bounce shadow-md">
-                      Hot 
+                      Populer 
                     </div>
                   )}
 
