@@ -151,7 +151,7 @@ return (
 
         <h4 className="font-extrabold text-2xl text-white mb-8">
 
-          Quick Links
+          Menu Cepat 
 
         </h4>
 
@@ -175,7 +175,7 @@ return (
 
               </span>
 
-              About Us
+              Tentang kami 
 
             </a>
 
@@ -197,7 +197,7 @@ return (
 
               </span>
 
-              Popular Courses
+              Program pelatihan 
 
             </a>
 
@@ -219,7 +219,7 @@ return (
 
               </span>
 
-              Success Stories
+              Testimoni peserta 
 
             </a>
 
@@ -241,7 +241,7 @@ return (
 
               </span>
 
-              Contact Support
+              Hubungi kami 
 
             </a>
 
@@ -257,7 +257,7 @@ return (
 
         <h4 className="font-extrabold text-2xl text-white mb-8">
 
-          Operating Hours
+          Jam operasional 
 
         </h4>
 
@@ -323,7 +323,7 @@ return (
 
     <div className="flex flex-col md:flex-row items-center justify-between text-gray-500 font-medium text-sm">
 
-      <p>&copy; {currentYear} Privakom. All rights reserved.</p>
+      <p>&copy; {currentYear} Privakom. Hak cipta dilindungi.</p>
 
       <div className="flex gap-6 mt-6 md:mt-0">
 
@@ -335,7 +335,7 @@ return (
 
         >
 
-          Privacy Policy
+          Kebijakan privasi 
 
         </a>
 
@@ -347,7 +347,7 @@ return (
 
         >
 
-          Terms of Service
+          Syarat & ketentuan 
 
         </a>
 
