@@ -33,10 +33,12 @@ const Hero = () => {
     <div className="lg:w-1/2 z-10 py-2">
 
   <h2 className="hidden">
-    Kursus Microsoft Office, Excel, Power BI, AutoCAD,
-    Desain Grafis, Web Design, Teknisi Komputer,
-    Networking, Cyber Security dan Inhouse Training Perusahaan Seluruh Indonesia 
-  </h2>
+  Privakom Kursus Komputer Profesional Indonesia,
+  Microsoft Office, Excel, Power BI, AutoCAD,
+  Desain Grafis, Web Design, Teknisi Komputer,
+  Networking, Cyber Security, Inhouse Training Perusahaan,
+  Jakarta, Tangerang, Karawang
+</h2>
 
   <h1 className="text-6xl lg:text-[7.5rem] font-serif font-black text-dark leading-[1.1] mb-8 drop-shadow-sm">
     Privakom.
