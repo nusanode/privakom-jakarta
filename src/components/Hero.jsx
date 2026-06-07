@@ -32,55 +32,22 @@ const Hero = () => {
 
     <div className="lg:w-1/2 z-10 py-2">
 
+  <h2 className="hidden">
+    Kursus Microsoft Office, Excel, Power BI, AutoCAD,
+    Desain Grafis, Web Design, Teknisi Komputer,
+    Networking, Cyber Security dan Inhouse Training Perusahaan
+  </h2>
 
+  <h1 className="text-6xl lg:text-[7.5rem] font-serif font-black text-dark leading-[1.1] mb-8 drop-shadow-sm">
+    Privakom.
+  </h1>
 
+  <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-lg leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
+    Program aktivitas yang dirancang untuk mendukung proses belajar,
+    mengembangkan keterampilan, dan menggali potensi terbaik setiap individu.
+  </p>
 
-
-
-
-      <h1 className="text-6xl lg:text-[7.5rem] font-serif font-black text-dark leading-[1.1] mb-8 drop-shadow-sm">
-      <h2 className="hidden">
-  Kursus Microsoft Office, Excel, Power BI, AutoCAD, Desain Grafis,
-  Web Design, Teknisi Komputer, Networking, Cyber Security dan
-  Inhouse Training Perusahaan
-</h2>
-
-
-        Privakom.
-
-
-
-      </h1>
-      
-
-
-
-
-
-
-
-
-
-
-
-      <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-12 max-w-lg leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
-
-
-
-        Program aktivitas yang dirancang untuk mendukung proses belajar,
-
-
-
-        mengembangkan keterampilan, dan menggali potensi terbaik setiap
-
-
-
-        individu.
-
-
-
-      </p>
-
+</div>
 
 
    
