@@ -12,7 +12,7 @@ const Courses = () => {
   const categories = ['Semua Program', ...new Set(coursesData.map(course => course.category))];
 
   const allFilteredCourses = coursesData.filter(course => {
-    const matchesCategory = activeCategory === 'All Courses' || course.category === activeCategory;
+    const matchesCategory = activeCategory === 'Semua Program' || course.category === activeCategory;
     const matchesSearch = course.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
                           course.description.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesCategory && matchesSearch;
@@ -33,8 +33,8 @@ const Courses = () => {
   };
 
   const handleCategoryClick = (category) => {
-    if (activeCategory === category && category !== 'All Courses') {
-      setActiveCategory('All Courses');
+    if (activeCategory === category && category !== 'Semua Program') {
+      setActiveCategory('Semua Program');
     } else {
       setActiveCategory(category);
     }
