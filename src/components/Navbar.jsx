@@ -128,8 +128,8 @@ const Navbar = () => {
           <div className="border-t border-b border-gray-100 py-2 my-2 flex flex-col space-y-1">
             <span className="px-4 text-xs font-black text-gray-400 uppercase tracking-wider">Lokasi Kursus Tatap Muka:</span>
             <a href="https://privakom.co.id" className="text-dark font-bold text-base hover:text-primary px-4 py-2 rounded-xl" onClick={() => setIsMobileMenuOpen(false)}>Jakarta (Duren Sawit)</a>
-            <a href="https://privakom.co.id" target="_blank" rel="noopener noreferrer" className="text-dark font-bold text-base hover:text-primary px-4 py-2 rounded-xl" onClick={() => setIsMobileMenuOpen(false)}>Tangerang (Kelapa Dua)</a>
-            <a href="https://privakom.co.id" target="_blank" rel="noopener noreferrer" className="text-dark font-bold text-base hover:text-primary px-4 py-2 rounded-xl" onClick={() => setIsMobileMenuOpen(false)}>Karawang (Klari)</a>
+            <a href="https://tangerang.privakom.co.id" target="_blank" rel="noopener noreferrer" className="text-dark font-bold text-base hover:text-primary px-4 py-2 rounded-xl" onClick={() => setIsMobileMenuOpen(false)}>Tangerang (Kelapa Dua)</a>
+            <a href="https://karawang.privakom.co.id" target="_blank" rel="noopener noreferrer" className="text-dark font-bold text-base hover:text-primary px-4 py-2 rounded-xl" onClick={() => setIsMobileMenuOpen(false)}>Karawang (Klari)</a>
           </div>
 
           <a
