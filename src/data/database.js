@@ -16,84 +16,84 @@ export const coursesData = [
   {
     id: 3,
     title: "Excel Basic",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "10 Jam",
     description: "Mempelajari dasar-dasar Microsoft Excel seperti formula, pengolahan data, dan pembuatan tabel."
   },
   {
     id: 4,
     title: "Excel Intermediate",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "10 Jam",
     description: "Pelatihan Excel tingkat menengah dengan fokus pada fungsi lanjutan, analisis data, dan pengolahan laporan."
   },
   {
     id: 5,
     title: "Excel Advanced",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "12 Jam",
     description: "Kuasai fitur Excel tingkat lanjut seperti analisis data kompleks dan otomatisasi laporan."
   },
   {
     id: 6,
     title: "Excel VBA Macro",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "12 Jam",
     description: "Belajar membuat otomatisasi pekerjaan Excel menggunakan VBA Macro."
   },
   {
     id: 7,
     title: "Excel Basic to Intermediate",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "15 Jam",
     description: "Pelatihan Excel dari tingkat dasar hingga menengah untuk meningkatkan kemampuan pengolahan data."
   },
   {
     id: 8,
     title: "Excel Intermediate to Advanced",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "15 Jam",
     description: "Program lanjutan untuk menguasai analisis data, formula kompleks, dan fitur profesional Excel."
   },
   {
     id: 9,
     title: "Excel Completed (Basic to Advanced)",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "22 Jam",
     description: "Program lengkap Excel dari dasar hingga mahir untuk kebutuhan analisis data profesional."
   },
   {
     id: 10,
     title: "Excel Dashboard",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "15 Jam",
     description: "Pelatihan membuat dashboard Excel interaktif untuk visualisasi data dan laporan bisnis."
   },
   {
     id: 11,
     title: "Excel Power BI",
-    category: "Microsoft Office",
+    category: "Microsoft Excel",
     duration: "15 Jam",
     description: "Belajar visualisasi data modern menggunakan Power BI untuk analisis dan pelaporan bisnis."
   },
   {
     id: 12,
     title: "PowerPoint Basic",
-    category: "Microsoft Office",
+    category: "PowerPoint",
     duration: "10 Jam",
     description: "Pelatihan dasar membuat presentasi menarik menggunakan Microsoft PowerPoint."
   },
   {
     id: 13,
     title: "PowerPoint Advanced",
-    category: "Microsoft Office",
+    category: "PowerPoint",
     duration: "10 Jam",
     description: "Belajar membuat presentasi profesional dengan fitur lanjutan PowerPoint."
   },
   {
     id: 14,
     title: "PowerPoint Complete (Basic + Advanced)",
-    category: "Microsoft Office",
+    category: "PowerPoint",
     duration: "15 Jam",
     description: "Program lengkap PowerPoint dari dasar hingga tingkat profesional."
   },
