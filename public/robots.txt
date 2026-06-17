@@ -1,4 +1,8 @@
+# Mengizinkan semua jenis robot pencari (termasuk Googlebot dan Google-Extended untuk AI)
 User-agent: *
 Allow: /
+Allow: /inhouse-training
 
-Sitemap: https://www.privakom.co.id/sitemap.xml
+# Menyediakan peta situs resmi agar proses indeksasi cabang utama lebih cepat
+Sitemap: https://www.privakom.co.id
+
