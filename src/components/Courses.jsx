@@ -164,7 +164,7 @@ const Courses = () => {
                 className="bg-white rounded-3xl shadow-lg shadow-gray-200/50 hover:shadow-2xl hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-300 group cursor-pointer flex flex-col border border-gray-100 overflow-hidden"
               >
                 <div className="relative h-56 overflow-hidden bg-primary/10 flex items-center justify-center shrink-0 w-full">
-                  {index === 0 && activeCategory === 'All Courses' && !searchTerm && (
+                  {index === 0 && activeCategory === 'Semua Program' && !searchTerm && (
                     <div className="absolute top-4 right-4 z-20 bg-red-500 text-white rounded-full px-4 py-1 text-xs font-black uppercase tracking-wider animate-bounce shadow-md">
                       Populer 
                     </div>
