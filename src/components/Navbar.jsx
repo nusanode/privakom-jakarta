@@ -51,8 +51,8 @@ const Navbar = () => {
             {isBranchDropdownOpen && (
               <div className="absolute top-full right-0 mt-2 w-56 bg-white rounded-2xl shadow-xl border border-gray-100 py-2 flex flex-col z-50 animate-[fadeIn_0.2s_ease-out]">
                 <a href="https://privakom.co.id" className="px-5 py-3 hover:bg-primary/10 hover:text-primary transition-all text-sm font-bold">Jakarta (Pusat)</a>
-                <a href="https://privakom.co.id" target="_blank" rel="noopener noreferrer" className="px-5 py-3 hover:bg-primary/10 hover:text-primary transition-all text-sm font-bold border-t border-gray-50">Tangerang (Kelapa Dua)</a>
-                <a href="https://privakom.co.id" target="_blank" rel="noopener noreferrer" className="px-5 py-3 hover:bg-primary/10 hover:text-primary transition-all text-sm font-bold border-t border-gray-50">Karawang (Klari)</a>
+                <a href="https://tangerang.privakom.co.id" target="_blank" rel="noopener noreferrer" className="px-5 py-3 hover:bg-primary/10 hover:text-primary transition-all text-sm font-bold border-t border-gray-50">Tangerang (Kelapa Dua)</a>
+                <a href="https://karawang.privakom.co.id" target="_blank" rel="noopener noreferrer" className="px-5 py-3 hover:bg-primary/10 hover:text-primary transition-all text-sm font-bold border-t border-gray-50">Karawang (Klari)</a>
               </div>
             )}
           </div>
