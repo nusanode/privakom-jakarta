@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="lg:w-1/2 z-10 py-2">
           {/* H1 yang Fokus pada Keyword Utama Komersial */}
           <h1 className="text-4xl lg:text-[4.5rem] font-serif font-black text-dark leading-[1.2] mb-6 drop-shadow-sm">
-            Kursus Komputer & In-House Training
+            Kursus Komputer & In House Training
           </h1>
 
           {/* Paragraf Deskripsi yang Menyisipkan Kata Kunci Secara Alami */}
