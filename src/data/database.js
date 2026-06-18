@@ -25,7 +25,7 @@ export const coursesData = [
     title: "Excel Intermediate",
     category: "Microsoft Excel",
     duration: "10 Jam",
-    description: "Pelatihan Excel tingkat menengah dengan fokus pada fungsi lanjutan, analisis data, dan pengolahan laporan."
+    description: "Kursus Excel tingkat menengah dengan fokus pada fungsi lanjutan, analisis data, dan pengolahan laporan."
   },
   {
     id: 5,
@@ -109,7 +109,7 @@ export const coursesData = [
     title: "Desain Grafis Professional (Photoshop & CorelDraw)",
     category: "Desain Grafis",
     duration: "24 Jam",
-    description: "Belajar desain grafis menggunakan Adobe Photoshop dan CorelDraw untuk kebutuhan kreatif dan industri."
+    description: "Kursus desain grafis menggunakan Adobe Photoshop dan CorelDraw untuk kebutuhan kreatif dan industri."
   },
   {
     id: 17,
@@ -246,7 +246,7 @@ export const coursesData = [
   },
 {
   id: 36,
-  title: "In-House Training Microsoft Office",
+  title: "In House Training Microsoft Office",
   category: "Corporate Training",
   duration: "Custom",
   description: "Pelatihan Word, Excel, dan PowerPoint untuk karyawan.",
@@ -254,7 +254,7 @@ export const coursesData = [
 },
 {
   id: 37,
-  title: "In-House Training Microsoft Excel",
+  title: "In House Training Microsoft Excel",
   category: "Corporate Training",
   duration: "Custom",
   description: "Pelatihan Excel Basic, Intermediate hingga Advanced.",
@@ -262,7 +262,7 @@ export const coursesData = [
 },
 {
   id: 38,
-  title: "In-House Training Power BI",
+  title: "In House Training Power BI",
   category: "Corporate Training",
   duration: "Custom",
   description: "Pelatihan dashboard dan analisis data perusahaan.",
@@ -270,7 +270,7 @@ export const coursesData = [
 },
 {
   id: 39,
-  title: "In-House Training Cyber Security",
+  title: "In House Training Cyber Security",
   category: "Corporate Training",
   duration: "Custom",
   description: "Pelatihan keamanan informasi dan keamanan jaringan.",
