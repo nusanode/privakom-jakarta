@@ -250,7 +250,7 @@ export const coursesData = [
   category: "Corporate Training",
   duration: "Custom",
   description: "Pelatihan Word, Excel, dan PowerPoint untuk karyawan.",
-  image: "/images/inhouse-office.jpg",
+  image: "/images/privakom-corporate-training.jpg",
 },
 {
   id: 37,
@@ -258,7 +258,7 @@ export const coursesData = [
   category: "Corporate Training",
   duration: "Custom",
   description: "Pelatihan Excel Basic, Intermediate hingga Advanced.",
-  image: "/images/corporate-training.jpg",
+  image: "/images/privakom-corporate-training.jpg",
 },
 {
   id: 38,
@@ -266,7 +266,7 @@ export const coursesData = [
   category: "Corporate Training",
   duration: "Custom",
   description: "Pelatihan dashboard dan analisis data perusahaan.",
-  image: "/images/inhouse-powerbi.jpg",
+  image: "/images/privakom-corporate-training.jpg",
 },
 {
   id: 39,
