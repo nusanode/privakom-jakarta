@@ -1,6 +1,41 @@
 import { useState, useEffect } from 'react';
 import { coursesData, contactData } from '../data/database';
+const getCourseImage = (category) => {
+  switch (category) {
+    case "Microsoft Office":
+      return "/images/privakom-microsoft-office.jpg";
 
+    case "Microsoft Excel":
+      return "/images/privakom-microsoft-excel.jpg";
+
+    case "PowerPoint":
+      return "/images/privakom-powerpoint.jpg";
+
+    case "Desain Grafis":
+      return "/images/privakom-desain-grafis.jpg";
+
+    case "Accounting":
+      return "/images/privakom-accounting.jpg";
+
+    case "Web Desain & Programming":
+      return "/images/privakom-web-programming.jpg";
+
+    case "Cad Design & Architecture":
+      return "/images/privakom-cad-design.jpg";
+
+    case "Technical Computer & Network":
+      return "/images/privakom-technical-computer.jpg";
+
+    case "Cyber Security":
+      return "/images/privakom-cyber-security.jpg";
+
+    case "Corporate Training":
+      return "/images/corporate-training.jpg";
+
+    default:
+      return "/images/default.jpg";
+  }
+};
 const Courses = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('Semua Program');
