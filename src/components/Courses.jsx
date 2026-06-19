@@ -30,7 +30,7 @@ const getCourseImage = (category) => {
       return "/images//privakom-cyber-scurity.jpg";
 
     case "Corporate Training":
-      return "/images/corporate-training.jpg";
+      return "/images/privakom-corporate-training.jpg";
 
     default:
       return "/images/default.jpg";
