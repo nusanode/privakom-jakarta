@@ -27,7 +27,7 @@ const getCourseImage = (category) => {
       return "/images/privakom-technical-computer.jpg";
 
     case "Cyber Security":
-      return "/images/privakom-cyber-security.jpg";
+      return "/images//privakom-cyber-scurity.jpg";
 
     case "Corporate Training":
       return "/images/corporate-training.jpg";
