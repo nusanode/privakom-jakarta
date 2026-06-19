@@ -348,11 +348,11 @@ const Courses = () => {
           <div className="bg-white w-full max-w-3xl relative z-10 rounded-[2.5rem] shadow-2xl animate-[fadeIn_0.2s_ease-out] my-auto overflow-hidden">
             
             <div className="h-64 relative bg-primary/20 flex items-end">
-               <img 
-                  src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80" 
-                  alt={selectedCourse.title} 
-                  className="absolute inset-0 w-full h-full object-cover" 
-                />
+               <img
+  src={selectedCourse.image || getCourseImage(selectedCourse.category)}
+  alt={selectedCourse.title}
+  className="absolute inset-0 w-full h-full object-cover"
+/>
                 <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/40 to-transparent"></div>
                 <h3 className="relative z-10 text-3xl lg:text-5xl font-black text-white p-8 lg:px-10 mb-0 leading-tight drop-shadow-md">
                   {selectedCourse.title}
