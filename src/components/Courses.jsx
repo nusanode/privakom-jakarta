@@ -15,7 +15,7 @@ const getCourseImage = (category) => {
       return "/images/privakom-desain-grafis.jpg";
 
     case "Accounting":
-      return "/images/privakom-accounting.jpg";
+      return "/images/privakom-acounting.jpg";
 
     case "Web Desain & Programming":
       return "/images/privakom-web-programming.jpg";
