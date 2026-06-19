@@ -206,11 +206,11 @@ const Courses = () => {
                   )}
 
                   <img 
-                    src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80" 
-                    alt={course.title} 
-                    loading="lazy"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-                  />
+  src={course.image || getCourseImage(course.category)} 
+  alt={course.title} 
+  loading="lazy"
+  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+/>
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-dark rounded-full px-4 py-1.5 text-xs font-extrabold uppercase shadow-sm z-10">
                     {course.category}
                   </div>
