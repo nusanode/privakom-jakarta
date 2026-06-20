@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* LOGO - Dioptimalkan untuk Alt Text SEO */}
         <div className="flex items-center gap-3 text-3xl font-black text-dark tracking-tight">
           <img src="/logo.svg" alt="Lembaga Kursus Komputer PRIVAKOM Jakarta Tangerang Karawang" className="h-8 w-auto" />
-          <a href="https://privakom.co.id" className="hover:text-primary transition-all">Privakom</a>
+          <a href="https://privakom.co.id" className="hover:text-primary transition-all">PRIVAKOM</a>
         </div>
 
         {/* MENU DESKTOP */}
