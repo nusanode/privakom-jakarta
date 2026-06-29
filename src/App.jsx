@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import InHouseTrainingJakarta from "./pages/InhouseTrainingJakarta";
+import InHouseTrainingJakarta from "./pages/InHouseTrainingJakarta";
 
 function App() {
   return (
