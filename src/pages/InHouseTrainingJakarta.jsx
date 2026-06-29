@@ -128,7 +128,60 @@ const InhouseTrainingJakarta = () => {
         </div>
 
       </section>
+<section className="py-24 bg-white">
+  <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
+    <div className="text-center mb-16">
+      <span className="inline-block bg-primary/10 text-primary px-5 py-2 rounded-full font-bold">
+        Keunggulan Privakom
+      </span>
+
+      <h2 className="text-4xl lg:text-5xl font-black mt-6 text-dark">
+        Mengapa Memilih In House Training Privakom?
+      </h2>
+
+      <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
+        Kami membantu perusahaan meningkatkan kompetensi karyawan melalui
+        pelatihan yang fleksibel, praktis, dan disesuaikan dengan kebutuhan bisnis.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div className="p-8 rounded-3xl shadow-lg border">
+        <h3 className="text-2xl font-bold mb-4">Trainer Berpengalaman</h3>
+        <p>Instruktur profesional dengan pengalaman mengajar perusahaan, instansi pemerintah, dan BUMN.</p>
+      </div>
+
+      <div className="p-8 rounded-3xl shadow-lg border">
+        <h3 className="text-2xl font-bold mb-4">Materi Custom</h3>
+        <p>Silabus dapat disesuaikan dengan kebutuhan divisi, departemen, maupun target pekerjaan peserta.</p>
+      </div>
+
+      <div className="p-8 rounded-3xl shadow-lg border">
+        <h3 className="text-2xl font-bold mb-4">Training di Kantor</h3>
+        <p>Pelatihan dapat dilaksanakan langsung di lokasi perusahaan ataupun secara online.</p>
+      </div>
+
+      <div className="p-8 rounded-3xl shadow-lg border">
+        <h3 className="text-2xl font-bold mb-4">Jadwal Fleksibel</h3>
+        <p>Pelaksanaan dapat menyesuaikan jam kerja perusahaan termasuk hari Sabtu.</p>
+      </div>
+
+      <div className="p-8 rounded-3xl shadow-lg border">
+        <h3 className="text-2xl font-bold mb-4">Sertifikat Pelatihan</h3>
+        <p>Seluruh peserta memperoleh sertifikat resmi setelah menyelesaikan pelatihan.</p>
+      </div>
+
+      <div className="p-8 rounded-3xl shadow-lg border">
+        <h3 className="text-2xl font-bold mb-4">Konsultasi Gratis</h3>
+        <p>Kami membantu menentukan materi yang paling sesuai sebelum pelatihan dilaksanakan.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
       <section id="program">
         <Courses />
       </section>
