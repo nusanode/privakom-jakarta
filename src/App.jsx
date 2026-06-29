@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import KursusKomputerJakarta from "./pages/KursusKomputerJakarta";
+import InhouseTrainingJakarta from "./pages/InhouseTrainingJakarta";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route
-        path="/kursus-komputer-jakarta"
-        element={<KursusKomputerJakarta />}
+        path="/inhouse-training-jakarta"
+        element={<InhouseTrainingJakarta />}
       />
     </Routes>
   );
