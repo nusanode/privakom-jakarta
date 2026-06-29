@@ -6,7 +6,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import Courses from "../components/Courses";
 import Testimonials from "../components/Testimonials";
 
-const InhouseTrainingJakarta = () => {
+const InHouseTrainingJakarta = () => {
   return (
     <>
       <Navbar />
@@ -510,4 +510,4 @@ const InhouseTrainingJakarta = () => {
   );
 };
 
-export default InhouseTrainingJakarta;
+export default InHouseTrainingJakarta;
