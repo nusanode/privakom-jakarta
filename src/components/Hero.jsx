@@ -2,49 +2,50 @@ const Hero = () => {
   return (
     <main className="relative w-full min-h-[75vh] flex items-center bg-white overflow-hidden">
 
-      {/* Decorative Background - ringan, tanpa gambar tambahan */}
-      <div className="absolute top-[-10%] left-[-10%] w-72 h-72 bg-[#00AEEF]/15 rounded-full blur-[80px] pointer-events-none"></div>
-      <div className="absolute bottom-[-10%] right-[-10%] w-72 h-72 bg-[#FCE300]/15 rounded-full blur-[80px] pointer-events-none"></div>
+      {/* Background dekorasi ringan */}
+      <div className="absolute -top-32 -left-32 w-72 h-72 bg-[#00AEEF]/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute -bottom-32 -right-32 w-72 h-72 bg-[#FCE300]/10 rounded-full blur-3xl pointer-events-none"></div>
 
-      <div className="px-6 lg:px-12 max-w-7xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10 pt-10 pb-16">
+      <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 py-16 lg:py-20">
 
-        {/* =========================
-            KOLOM KIRI
-        ========================== */}
-        <div className="lg:w-[55%] z-10 py-4">
+        {/* KIRI */}
+        <div className="w-full lg:w-1/2">
 
-          {/* Label */}
-          <div className="flex items-center gap-3 mb-5">
+          <div className="flex items-center gap-3 mb-6">
             <div className="h-1.5 w-10 bg-[#00AEEF] rounded-full"></div>
 
-            <span className="text-[#00AEEF] font-extrabold tracking-wider text-sm uppercase">
-              Privakom Pusat • Indonesia
+            <span className="text-[#00AEEF] font-extrabold text-sm uppercase tracking-wider">
+              Privakom Learning Center
             </span>
           </div>
 
-          {/* H1 */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-dark leading-[1.08] mb-6 tracking-tight">
-            Kursus Komputer &amp; In House Training
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black text-dark leading-[1.08] tracking-tight mb-6">
+            Kursus Komputer &amp;
             <span className="block text-[#00AEEF]">
-              untuk Perusahaan di Indonesia
+              In House Training
             </span>
           </h1>
 
-          {/* Deskripsi */}
-          <p className="text-lg lg:text-xl text-gray-600 font-medium mb-8 max-w-2xl leading-relaxed">
-            Privakom menyediakan kursus komputer profesional dan
-            <strong className="text-dark"> In House Training perusahaan </strong>
-            dengan materi yang dapat disesuaikan dengan kebutuhan tim.
-            Trainer Privakom siap hadir ke lokasi perusahaan di berbagai
-            wilayah Indonesia.
+          <p className="text-lg lg:text-xl text-gray-600 font-medium leading-relaxed max-w-2xl mb-8">
+            Pelatihan komputer profesional untuk individu, perusahaan,
+            dan instansi. Privakom menyediakan program Microsoft Office,
+            Excel, Power BI, AutoCAD, Accounting, Desain Grafis,
+            Web Programming, Teknisi Komputer hingga Cyber Security.
+          </p>
+
+          <p className="text-base lg:text-lg text-gray-500 font-medium leading-relaxed max-w-2xl mb-10">
+            Untuk kebutuhan perusahaan, <strong className="text-dark">
+            In House Training</strong> dapat diselenggarakan secara
+            custom sesuai kebutuhan dan dapat dilaksanakan di lokasi
+            perusahaan di berbagai wilayah Indonesia.
           </p>
 
           {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-10">
+          <div className="flex flex-col sm:flex-row gap-4">
 
             <a
               href="#courses"
-              className="inline-flex justify-center items-center gap-3 bg-[#FCE300] text-dark rounded-full px-8 py-4 font-extrabold text-base shadow-lg shadow-yellow-400/20 hover:bg-yellow-300 hover:-translate-y-1 active:scale-95 transition-all duration-300"
+              className="inline-flex justify-center items-center gap-3 bg-[#FCE300] text-dark font-extrabold px-8 py-4 rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
             >
               Lihat Program Pelatihan
 
@@ -65,93 +66,93 @@ const Hero = () => {
 
             <a
               href="#contact"
-              className="inline-flex justify-center items-center gap-3 bg-white text-dark border-2 border-gray-200 rounded-full px-8 py-4 font-extrabold text-base hover:border-[#00AEEF] hover:text-[#00AEEF] active:scale-95 transition-all duration-300"
+              className="inline-flex justify-center items-center gap-3 bg-dark text-white font-extrabold px-8 py-4 rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
             >
               Hubungi Privakom
             </a>
 
           </div>
 
-          {/* Trust / Social Proof */}
-          <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
+          {/* TRUST */}
+          <div className="flex flex-wrap items-center gap-x-8 gap-y-4 mt-10 pt-8 border-t border-gray-100">
 
             <div>
               <div className="text-3xl font-black text-dark">
                 20+
               </div>
-
               <div className="text-sm font-bold text-gray-500">
                 Program Pelatihan
               </div>
             </div>
 
-            <div className="h-10 w-px bg-gray-200 hidden sm:block"></div>
+            <div className="hidden sm:block h-10 w-px bg-gray-200"></div>
 
             <div>
               <div className="text-3xl font-black text-dark">
                 50+
               </div>
-
               <div className="text-sm font-bold text-gray-500">
                 Instruktur Profesional
               </div>
             </div>
 
-            <div className="h-10 w-px bg-gray-200 hidden sm:block"></div>
+            <div className="hidden sm:block h-10 w-px bg-gray-200"></div>
 
             <div>
               <div className="text-3xl font-black text-dark">
-                🇮🇩
+                Nasional
               </div>
-
               <div className="text-sm font-bold text-gray-500">
-                Layanan Seluruh Indonesia
+                Jangkauan In House Training
               </div>
             </div>
 
           </div>
+
         </div>
 
-
-        {/* =========================
-            KOLOM KANAN
-        ========================== */}
-        <div className="lg:w-[45%] w-full relative flex justify-center lg:justify-end z-10">
+        {/* KANAN */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
 
           <div className="relative w-full max-w-xl">
 
-            {/* Glow */}
-            <div className="absolute inset-0 bg-[#00AEEF]/10 rounded-[2.5rem] blur-2xl"></div>
+            <div className="absolute -top-5 -right-5 w-24 h-24 bg-[#FCE300] rounded-3xl -z-10"></div>
+            <div className="absolute -bottom-5 -left-5 w-28 h-28 bg-[#00AEEF]/20 rounded-full -z-10"></div>
 
-            {/* Logo / Visual */}
-            <div className="relative rounded-[2rem] overflow-hidden bg-white border-4 border-white shadow-xl">
+            <div className="relative bg-white rounded-[2rem] shadow-xl border border-gray-100 overflow-hidden">
 
               <img
-                src="/logo.svg"
-                alt="Privakom - Kursus Komputer dan In House Training Perusahaan"
-                width="600"
-                height="500"
+                src="/images/privakom-corporate-training.jpg"
+                alt="In House Training Komputer Privakom untuk perusahaan"
+                width="800"
+                height="600"
                 fetchPriority="high"
                 decoding="async"
-                className="w-full h-auto object-contain p-6"
+                className="w-full h-auto object-cover"
               />
 
-            </div>
+              <div className="p-6 lg:p-8">
 
-            {/* Badge */}
-            <div className="absolute -bottom-5 -left-3 sm:left-5 bg-white rounded-2xl shadow-xl border border-gray-100 px-5 py-4">
+                <div className="inline-flex items-center gap-2 bg-[#FCE300]/20 text-dark px-4 py-2 rounded-full text-sm font-extrabold mb-4">
+                  <span className="w-2.5 h-2.5 bg-[#00AEEF] rounded-full"></span>
+                  In House Training
+                </div>
 
-              <div className="text-xs font-bold text-gray-400 uppercase tracking-wider">
-                Layanan Pelatihan
-              </div>
+                <h2 className="text-2xl lg:text-3xl font-black text-dark mb-3">
+                  Pelatihan Komputer untuk Perusahaan
+                </h2>
 
-              <div className="text-lg font-black text-dark">
-                Offline • In House • Custom
+                <p className="text-gray-500 font-medium leading-relaxed">
+                  Program pelatihan dapat disesuaikan dengan kebutuhan
+                  perusahaan dan dilaksanakan di lokasi perusahaan.
+                </p>
+
               </div>
 
             </div>
 
           </div>
+
         </div>
 
       </div>
