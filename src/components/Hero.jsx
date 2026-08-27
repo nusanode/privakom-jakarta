@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Hero = () => {
   return (
     <main className="relative w-full min-h-[80vh] flex items-center bg-white overflow-hidden">
