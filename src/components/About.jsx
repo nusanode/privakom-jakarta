@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => {
   // Array untuk mengelola daftar keunggulan secara dinamis
   const advantages = [
