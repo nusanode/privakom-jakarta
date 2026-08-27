@@ -2,36 +2,30 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-16 lg:py-28 bg-white relative w-full overflow-hidden"
+      className="py-12 lg:py-32 bg-white relative w-full overflow-hidden"
     >
-      <div className="px-6 lg:px-12 max-w-8xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
-
-        {/* =========================
-            SISI KIRI
-        ========================== */}
-        <div className="lg:w-1/2 w-full">
-
-          {/* GAMBAR */}
-          <div className="relative rounded-[2rem] overflow-hidden bg-primary/10 border border-gray-100 shadow-xl">
+      <div className="px-6 lg:px-12 max-w-8xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24 items-center">
+        
+        {/* SISI KIRI: MEDIA GAMBAR & KARTU INFORMASI */}
+        <div className="lg:w-1/2 relative w-full group mt-10 lg:mt-0 z-10 flex flex-col sm:block">
+          
+          {/* Pembungkus Gambar Utama */}
+          <div className="relative rounded-[2.5rem] shadow-2xl shadow-primary/20 bg-primary/10 z-10 overflow-hidden border-4 border-white order-1">
             <img
-              src="/foto-1.jpeg"
-              alt="Pelatihan komputer Privakom"
-              width="900"
-              height="650"
+              src="foto-1.jpeg"
+              alt="Siswa belajar di Privakom"
               loading="lazy"
-              decoding="async"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
 
-          {/* INFORMASI LKP - DI LUAR GAMBAR */}
-          <div className="mt-5 bg-white rounded-2xl p-5 shadow-lg border border-gray-100">
-            <div className="flex items-center gap-4">
-
-              <div className="bg-primary/20 text-dark p-3 rounded-xl shrink-0">
+          {/* Kartu Informasi LKP PRIVAKOM - Diperbaiki agar tidak menutupi gambar di Mobile */}
+          <div className="mt-6 sm:mt-0 sm:absolute -bottom-8 -right-4 lg:-bottom-12 lg:-right-12 bg-white p-6 lg:p-8 rounded-3xl shadow-xl shadow-gray-200/60 z-20 transition-transform duration-300 hover:-translate-y-2 border border-gray-50 order-2">
+            <div className="flex items-center gap-5">
+              <div className="bg-primary/20 text-primary p-4 rounded-2xl group-hover:scale-110 transition-transform flex-shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7"
+                  className="h-8 w-8"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -44,208 +38,96 @@ const About = () => {
                   />
                 </svg>
               </div>
-
               <div>
-                <p className="text-base font-black text-dark">
+                <p className="text-lg font-black text-dark tracking-tight leading-tight mb-1">
                   LKP PRIVAKOM
                 </p>
-
-                <p className="text-xs sm:text-sm text-gray-500 font-bold">
-                  Lembaga Kursus & Pelatihan Komputer
+                <p className="text-sm text-gray-500 font-bold mt-1">
+                  Lembaga Kursus dan Pelatihan Komputer Profesional     
                 </p>
-
-                <span className="inline-block mt-1 bg-primary/20 text-dark px-2.5 py-1 rounded-md text-[11px] font-black">
+                <div className="inline-block mt-2 bg-primary/20 text-dark px-3 py-1 rounded-md text-xs font-black tracking-wide">
                   NPSN: K9999519
-                </span>
+                </div>
               </div>
-
             </div>
           </div>
-
         </div>
 
-
-        {/* =========================
-            SISI KANAN
-        ========================== */}
-        <div className="lg:w-1/2 w-full">
-
-          <div className="flex items-center gap-3 mb-5">
+        {/* SISI KANAN: TEKS DESKRIPSI UTAMA */}
+        <div className="lg:w-1/2 w-full py-8 mt-6 lg:mt-0 z-10">
+          <div className="flex items-center gap-3 mb-8">
             <div className="h-1.5 w-8 bg-primary rounded-full"></div>
-
             <span className="text-primary font-extrabold tracking-wider text-sm uppercase">
               Tentang Privakom
             </span>
           </div>
 
-
-          <h2 className="text-4xl lg:text-6xl font-black text-dark mb-7 leading-[1.1] tracking-tight">
-            Kursus Komputer
-            <span className="block text-[#00AEEF]">
-              Profesional
-            </span>
+          {/* Judul Tersembunyi khusus Google AI & SEO */}
+          <h3 className="hidden">
+            Kursus Komputer, Microsoft Office, Excel, AutoCAD, Desain Grafis, Web Design, Cyber Security dan Pelatihan Digital Profesional di Indonesia
+          </h3>
+          
+          <h2 className="text-4xl lg:text-7xl font-black text-dark mb-8 leading-[1.1] tracking-tight">
+            Kursus Komputer Profesional 
           </h2>
 
-
-          <p className="text-lg text-gray-600 font-medium mb-5 leading-relaxed">
-            Privakom merupakan lembaga kursus dan pelatihan komputer
-            yang menyediakan program pengembangan keterampilan teknologi
-            untuk pelajar, mahasiswa, karyawan, profesional, perusahaan,
-            dan instansi.
+          <p className="text-lg lg:text-xl text-gray-600 font-medium mb-6 leading-relaxed">
+            Privakom adalah lembaga kursus komputer dan pelatihan digital yang telah membantu pelajar, mahasiswa, karyawan, profesional, dan perusahaan meningkatkan keterampilan teknologi untuk menghadapi kebutuhan dunia kerja modern.
           </p>
 
-
-          <p className="text-lg text-gray-600 font-medium mb-8 leading-relaxed">
-            Untuk kebutuhan perusahaan, Privakom menyediakan{" "}
-            <strong className="text-dark">
-              In House Training
-            </strong>{" "}
-            dengan materi yang dapat disesuaikan dengan kebutuhan tim dan
-            bidang pekerjaan. Training dapat dilaksanakan di lokasi
-            perusahaan maupun secara online, dengan layanan yang dapat
-            menjangkau berbagai wilayah di Indonesia.
+          <p className="text-lg lg:text-xl text-gray-600 font-medium mb-12 leading-relaxed">
+            Kami menyediakan program Microsoft Office, Excel, Power BI, AutoCAD, Accounting, Accurate, Zahir, Desain Grafis, Web Design, Teknisi Komputer, Networking, Cyber Security, Digital Marketing, hingga Inhouse Training Perusahaan dengan metode belajar praktik langsung dan instruktur berpengalaman.
           </p>
 
-
-          {/* =========================
-              KEUNGGULAN
-          ========================== */}
-          <div className="space-y-3 mb-9">
-
-            {/* Keunggulan 1 */}
-            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
-              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="3"
-                    d="M5 13l4 4L19 7"
-                  />
+          {/* Daftar Keunggulan */}
+          <ul className="space-y-4 mb-14">
+            <li className="flex items-center gap-4 rounded-2xl p-4 bg-gray-50 border border-gray-100 hover:bg-primary/10 hover:border-primary/20 transition-all duration-300 cursor-default group/list">
+              <div className="text-primary bg-white p-2 rounded-xl shadow-sm group-hover/list:scale-110 transition-transform">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
-
-              <span className="text-dark font-bold">
-                Instruktur berpengalaman
+              <span className="text-dark font-bold text-lg">
+                Instruktur Berpengalaman
               </span>
-            </div>
-
-
-            {/* Keunggulan 2 */}
-            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
-              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="3"
-                    d="M5 13l4 4L19 7"
-                  />
+            </li>
+            <li className="flex items-center gap-4 rounded-2xl p-4 bg-gray-50 border border-gray-100 hover:bg-primary/10 hover:border-primary/20 transition-all duration-300 cursor-default group/list">
+              <div className="text-primary bg-white p-2 rounded-xl shadow-sm group-hover/list:scale-110 transition-transform">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
-
-              <span className="text-dark font-bold">
-                Materi dapat disesuaikan dengan kebutuhan
+              <span className="text-dark font-bold text-lg">
+                Sertifikat Pelatihan Resmi
               </span>
-            </div>
-
-
-            {/* Keunggulan 3 */}
-            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
-              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="3"
-                    d="M5 13l4 4L19 7"
-                  />
+            </li>
+            <li className="flex items-center gap-4 rounded-2xl p-4 bg-gray-50 border border-gray-100 hover:bg-primary/10 hover:border-primary/20 transition-all duration-300 cursor-default group/list">
+              <div className="text-primary bg-white p-2 rounded-xl shadow-sm group-hover/list:scale-110 transition-transform">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
-
-              <span className="text-dark font-bold">
-                Training untuk individu, perusahaan & instansi
+              <span className="text-dark font-bold text-lg">
+                Materi Sesuai Kebutuhan Industri Kerja
               </span>
-            </div>
+            </li>
+          </ul>
 
-
-            {/* Keunggulan 4 */}
-            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
-              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="3"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-              </div>
-
-              <span className="text-dark font-bold">
-                In House Training & Online Training seluruh Indonesia
-              </span>
-            </div>
-
-          </div>
-
-
-          {/* =========================
-              CTA
-          ========================== */}
-          <div className="flex flex-col sm:flex-row gap-3">
-
-            <a
-              href="#courses"
-              className="inline-flex justify-center items-center gap-3 bg-primary text-dark font-extrabold px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all"
+          {/* Tombol Aksi */}
+          <a
+            href="#courses"
+            className="inline-flex items-center gap-3 bg-primary text-dark font-extrabold px-10 py-4 rounded-full shadow-lg shadow-primary/40 hover:shadow-xl hover:-translate-y-1 active:scale-95 transition-all text-base group"
+          >
+            Lihat Program Kursus
+            <svg
+              className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
             >
-              Lihat Program Kursus
-
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="3"
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                />
-              </svg>
-            </a>
-
-
-            <a
-              href="#contact"
-              className="inline-flex justify-center items-center gap-3 bg-dark text-white font-extrabold px-8 py-4 rounded-full hover:-translate-y-1 transition-all"
-            >
-              Hubungi Privakom
-            </a>
-
-          </div>
-
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
         </div>
 
       </div>
