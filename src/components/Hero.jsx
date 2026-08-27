@@ -32,12 +32,14 @@ const Hero = () => {
 
           {/* Deskripsi */}
           <p className="text-lg lg:text-xl text-gray-600 font-medium mb-8 max-w-2xl leading-relaxed">
-            Privakom menyediakan kursus komputer profesional dan
-            <strong className="text-dark"> In House Training perusahaan </strong>
-            dengan materi yang dapat disesuaikan dengan kebutuhan tim.
-            Trainer Privakom siap hadir ke lokasi perusahaan di berbagai
-            wilayah Indonesia.
-          </p>
+  Privakom menyediakan kursus komputer profesional secara
+  <strong className="text-dark"> offline dan online </strong>
+  serta
+  <strong className="text-dark"> In House Training perusahaan </strong>
+  dengan materi yang dapat disesuaikan dengan kebutuhan peserta
+  dan tim. Layanan pelatihan tersedia untuk peserta individu maupun
+  perusahaan di seluruh Indonesia.
+</p>
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
