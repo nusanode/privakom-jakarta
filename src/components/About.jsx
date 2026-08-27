@@ -1,12 +1,4 @@
 const About = () => {
-  // Array untuk mengelola daftar keunggulan secara dinamis
-  const advantages = [
-    "Instruktur berpengalaman",
-    "Materi dapat disesuaikan dengan kebutuhan",
-    "Training untuk individu, perusahaan & instansi",
-    "In House Training & Online Training seluruh Indonesia"
-  ];
-
   return (
     <section
       id="about"
@@ -15,12 +7,12 @@ const About = () => {
       <div className="px-6 lg:px-12 max-w-8xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
 
         {/* =========================
-            SISI KIRI: MEDIA & KARTU INFORMASI
+            SISI KIRI
         ========================== */}
         <div className="lg:w-1/2 w-full">
 
           {/* GAMBAR */}
-          <div className="relative rounded-[2rem] overflow-hidden bg-primary bg-opacity-10 border border-gray-100 shadow-xl">
+          <div className="relative rounded-[2rem] overflow-hidden bg-primary/10 border border-gray-100 shadow-xl">
             <img
               src="/foto-1.jpeg"
               alt="Pelatihan komputer Privakom"
@@ -32,11 +24,11 @@ const About = () => {
             />
           </div>
 
-          {/* INFORMASI LKP */}
+          {/* INFORMASI LKP - DI LUAR GAMBAR */}
           <div className="mt-5 bg-white rounded-2xl p-5 shadow-lg border border-gray-100">
             <div className="flex items-center gap-4">
 
-              <div className="bg-primary bg-opacity-20 text-dark p-3 rounded-xl shrink-0">
+              <div className="bg-primary/20 text-dark p-3 rounded-xl shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-7 w-7"
@@ -57,10 +49,12 @@ const About = () => {
                 <p className="text-base font-black text-dark">
                   LKP PRIVAKOM
                 </p>
+
                 <p className="text-xs sm:text-sm text-gray-500 font-bold">
                   Lembaga Kursus & Pelatihan Komputer
                 </p>
-                <span className="inline-block mt-1 bg-primary bg-opacity-20 text-dark px-2.5 py-1 rounded-md text-[11px] font-black">
+
+                <span className="inline-block mt-1 bg-primary/20 text-dark px-2.5 py-1 rounded-md text-[11px] font-black">
                   NPSN: K9999519
                 </span>
               </div>
@@ -72,30 +66,34 @@ const About = () => {
 
 
         {/* =========================
-            SISI KANAN: DESKRIPSI & KEUNGGULAN
+            SISI KANAN
         ========================== */}
         <div className="lg:w-1/2 w-full">
 
           <div className="flex items-center gap-3 mb-5">
             <div className="h-1.5 w-8 bg-primary rounded-full"></div>
+
             <span className="text-primary font-extrabold tracking-wider text-sm uppercase">
               Tentang Privakom
             </span>
           </div>
 
+
           <h2 className="text-4xl lg:text-6xl font-black text-dark mb-7 leading-[1.1] tracking-tight">
-            Kursus Komputer{' '}
+            Kursus Komputer
             <span className="block text-[#00AEEF]">
               Profesional
             </span>
           </h2>
 
+
           <p className="text-lg text-gray-600 font-medium mb-5 leading-relaxed">
-            Privakom merupakan lembaga XML namespace kursus dan pelatihan komputer
+            Privakom merupakan lembaga kursus dan pelatihan komputer
             yang menyediakan program pengembangan keterampilan teknologi
             untuk pelajar, mahasiswa, karyawan, profesional, perusahaan,
             dan instansi.
           </p>
+
 
           <p className="text-lg text-gray-600 font-medium mb-8 leading-relaxed">
             Untuk kebutuhan perusahaan, Privakom menyediakan{" "}
@@ -109,43 +107,120 @@ const About = () => {
           </p>
 
 
-          {/* DAFTAR KEUNGGULAN (RENDERING LOOP) */}
+          {/* =========================
+              KEUNGGULAN
+          ========================== */}
           <div className="space-y-3 mb-9">
-            {advantages.map((text, index) => (
-              <div 
-                key={index} 
-                className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100"
-              >
-                <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
-                  <svg
-                    className="w-5 h-5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="3"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <span className="text-dark font-bold">
-                  {text}
-                </span>
+
+            {/* Keunggulan 1 */}
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
               </div>
-            ))}
+
+              <span className="text-dark font-bold">
+                Instruktur berpengalaman
+              </span>
+            </div>
+
+
+            {/* Keunggulan 2 */}
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+
+              <span className="text-dark font-bold">
+                Materi dapat disesuaikan dengan kebutuhan
+              </span>
+            </div>
+
+
+            {/* Keunggulan 3 */}
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+
+              <span className="text-dark font-bold">
+                Training untuk individu, perusahaan & instansi
+              </span>
+            </div>
+
+
+            {/* Keunggulan 4 */}
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
+              <div className="bg-white text-primary p-2.5 rounded-xl shadow-sm shrink-0">
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+
+              <span className="text-dark font-bold">
+                In House Training & Online Training seluruh Indonesia
+              </span>
+            </div>
+
           </div>
 
 
-          {/* TOMBOL CALL TO ACTION */}
+          {/* =========================
+              CTA
+          ========================== */}
           <div className="flex flex-col sm:flex-row gap-3">
+
             <a
               href="#courses"
               className="inline-flex justify-center items-center gap-3 bg-primary text-dark font-extrabold px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all"
             >
               Lihat Program Kursus
+
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -161,12 +236,14 @@ const About = () => {
               </svg>
             </a>
 
+
             <a
               href="#contact"
               className="inline-flex justify-center items-center gap-3 bg-dark text-white font-extrabold px-8 py-4 rounded-full hover:-translate-y-1 transition-all"
             >
               Hubungi Privakom
             </a>
+
           </div>
 
         </div>
