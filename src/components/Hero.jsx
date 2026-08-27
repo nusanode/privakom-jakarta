@@ -1,151 +1,140 @@
 const Hero = () => {
+
   return (
-    <main className="relative w-full min-h-[75vh] flex items-center bg-white overflow-hidden">
 
-      {/* Background dekorasi ringan */}
-      <div className="absolute -top-32 -left-32 w-72 h-72 bg-[#00AEEF]/10 rounded-full blur-3xl pointer-events-none"></div>
-      <div className="absolute -bottom-32 -right-32 w-72 h-72 bg-[#FCE300]/10 rounded-full blur-3xl pointer-events-none"></div>
+    <main className="relative w-full min-h-[80vh] flex items-center bg-white overflow-hidden">
 
-      <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 py-16 lg:py-20">
+      {/* Background Decorative Blur */}
 
-        {/* KIRI */}
-        <div className="w-full lg:w-1/2">
+      <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-[#00AEEF]/20 rounded-full blur-[100px]"></div>
 
-          <div className="flex items-center gap-3 mb-6">
-            <div className="h-1.5 w-10 bg-[#00AEEF] rounded-full"></div>
+      <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-[#FCE300]/20 rounded-full blur-[100px]"></div>
 
-            <span className="text-[#00AEEF] font-extrabold text-sm uppercase tracking-wider">
-              Privakom Learning Center
-            </span>
-          </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black text-dark leading-[1.08] tracking-tight mb-6">
-            Kursus Komputer &amp;
-            <span className="block text-[#00AEEF]">
-              In House Training
-            </span>
+
+      <div className="px-6 lg:px-12 max-w-8xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between pt-10 pb-20">
+
+        
+
+        {/* Kolon Kiri: Teks & Informasi Utama */}
+
+        <div className="lg:w-1/2 z-10 py-2">
+
+          {/* H1 yang Fokus pada Keyword Utama Komersial */}
+
+          <h1 className="text-4xl lg:text-[4.5rem] font-serif font-black text-dark leading-[1.2] mb-6 drop-shadow-sm">
+
+            Kursus Komputer & In House Training
+
           </h1>
 
-          <p className="text-lg lg:text-xl text-gray-600 font-medium leading-relaxed max-w-2xl mb-8">
-            Pelatihan komputer profesional untuk individu, perusahaan,
-            dan instansi. Privakom menyediakan program Microsoft Office,
-            Excel, Power BI, AutoCAD, Accounting, Desain Grafis,
-            Web Programming, Teknisi Komputer hingga Cyber Security.
+
+
+          {/* Paragraf Deskripsi yang Menyisipkan Kata Kunci Secara Alami */}
+
+          <p className="text-lg lg:text-xl text-gray-700 font-medium mb-10 max-w-lg leading-relaxed bg-white/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none p-4 lg:p-0 rounded-3xl lg:rounded-none shadow-lg shadow-gray-200/50 lg:shadow-none">
+
+            Privakom menyediakan program pelatihan komputer profesional untuk staf instansi dan perusahaan di Jakarta, Tangerang, dan Karawang. Tingkatkan keahlian Microsoft Office, Excel, Power BI, hingga AutoCAD tim Anda dengan kurikulum yang dikustomisasi.
+
           </p>
 
-          <p className="text-base lg:text-lg text-gray-500 font-medium leading-relaxed max-w-2xl mb-10">
-            Untuk kebutuhan perusahaan, <strong className="text-dark">
-            In House Training</strong> dapat diselenggarakan secara
-            custom sesuai kebutuhan dan dapat dilaksanakan di lokasi
-            perusahaan di berbagai wilayah Indonesia.
-          </p>
 
-          {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-4">
+
+          {/* Tombol Call to Action (CTA) */}
+
+          <div className="mb-12">
 
             <a
+
               href="#courses"
-              className="inline-flex justify-center items-center gap-3 bg-[#FCE300] text-dark font-extrabold px-8 py-4 rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
+
+              className="inline-flex items-center gap-4 bg-[#FCE300] text-dark rounded-full px-10 py-5 font-extrabold text-base shadow-xl shadow-yellow-400/30 hover:bg-yellow-300 hover:shadow-2xl hover:-translate-y-2 active:scale-95 transition-all duration-300 group" 
+
             >
-              Lihat Program Pelatihan
+
+              Lihat Program Pelatihan 
 
               <svg
-                className="w-5 h-5"
+
+                className="w-6 h-6 group-hover:translate-x-2 transition-transform"
+
                 fill="none"
+
                 stroke="currentColor"
+
                 viewBox="0 0 24 24"
+
               >
+
                 <path
+
                   strokeLinecap="round"
+
                   strokeLinejoin="round"
+
                   strokeWidth="3"
+
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
-                />
+
+                ></path>
+
               </svg>
-            </a>
 
-            <a
-              href="#contact"
-              className="inline-flex justify-center items-center gap-3 bg-dark text-white font-extrabold px-8 py-4 rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
-            >
-              Hubungi Privakom
             </a>
 
           </div>
 
-          {/* TRUST */}
-          <div className="flex flex-wrap items-center gap-x-8 gap-y-4 mt-10 pt-8 border-t border-gray-100">
 
-            <div>
-              <div className="text-3xl font-black text-dark">
-                20+
-              </div>
-              <div className="text-sm font-bold text-gray-500">
-                Program Pelatihan
-              </div>
-            </div>
 
-            <div className="hidden sm:block h-10 w-px bg-gray-200"></div>
+          {/* Social Proof Section (Jumlah Peserta) */}
 
-            <div>
-              <div className="text-3xl font-black text-dark">
-                50+
-              </div>
-              <div className="text-sm font-bold text-gray-500">
-                Instruktur Profesional
-              </div>
-            </div>
+          <div className="flex flex-col sm:flex-row items-center gap-6 p-6 rounded-3xl bg-white shadow-xl shadow-gray-200/50 max-w-max border border-gray-50">
 
-            <div className="hidden sm:block h-10 w-px bg-gray-200"></div>
-
-            <div>
-              <div className="text-3xl font-black text-dark">
-                Nasional
-              </div>
-              <div className="text-sm font-bold text-gray-500">
-                Jangkauan In House Training
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        {/* KANAN */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-
-          <div className="relative w-full max-w-xl">
-
-            <div className="absolute -top-5 -right-5 w-24 h-24 bg-[#FCE300] rounded-3xl -z-10"></div>
-            <div className="absolute -bottom-5 -left-5 w-28 h-28 bg-[#00AEEF]/20 rounded-full -z-10"></div>
-
-            <div className="relative bg-white rounded-[2rem] shadow-xl border border-gray-100 overflow-hidden">
+            <div className="flex -space-x-4">
 
               <img
-                src="/images/privakom-corporate-training.jpg"
-                alt="In House Training Komputer Privakom untuk perusahaan"
-                width="800"
-                height="600"
-                fetchPriority="high"
-                decoding="async"
-                className="w-full h-auto object-cover"
+
+                className="w-14 h-14 rounded-full border-4 border-white object-cover relative z-30 hover:-translate-y-1 transition-transform cursor-pointer shadow-md"
+
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80"
+
+                alt="Peserta Kelas Komputer Privakom"
+
               />
 
-              <div className="p-6 lg:p-8">
+              <img
 
-                <div className="inline-flex items-center gap-2 bg-[#FCE300]/20 text-dark px-4 py-2 rounded-full text-sm font-extrabold mb-4">
-                  <span className="w-2.5 h-2.5 bg-[#00AEEF] rounded-full"></span>
-                  In House Training
-                </div>
+                className="w-14 h-14 rounded-full border-4 border-white object-cover relative z-20 hover:-translate-y-1 transition-transform cursor-pointer shadow-md"
 
-                <h2 className="text-2xl lg:text-3xl font-black text-dark mb-3">
-                  Pelatihan Komputer untuk Perusahaan
-                </h2>
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&q=80"
 
-                <p className="text-gray-500 font-medium leading-relaxed">
-                  Program pelatihan dapat disesuaikan dengan kebutuhan
-                  perusahaan dan dilaksanakan di lokasi perusahaan.
-                </p>
+                alt="Alumni Kursus Excel Korporat"
+
+              />
+
+              <img
+
+                className="w-14 h-14 rounded-full border-4 border-white object-cover relative z-10 hover:-translate-y-1 transition-transform cursor-pointer shadow-md"
+
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80"
+
+                alt="Sertifikasi IT Karyawan"
+
+              />
+
+            </div>
+
+            <div>
+
+              <div className="text-3xl font-black text-dark tracking-tight leading-none">
+
+                10.000+
+
+              </div>
+
+              <div className="text-sm font-bold text-gray-500 mt-1">
+
+                Karyawan & Profesional Terlatih
 
               </div>
 
@@ -155,9 +144,40 @@ const Hero = () => {
 
         </div>
 
+
+
+        {/* Kolom Kanan: Ilustrasi Utama / Logo */}
+
+        <div className="lg:w-1/2 relative mt-12 lg:mt-0 flex justify-end z-10 lg:pl-10">
+
+          <div className="relative rounded-[2.5rem] shadow-2xl shadow-gray-200 bg-white w-full max-w-2xl xl:max-w-3xl overflow-hidden group border-4 border-white">
+
+            {/* Ganti logo.svg dengan foto asli kegiatan inhouse training jika ada */}
+
+            <img
+
+              src="logo.svg"
+
+              alt="Pelatihan Komputer Perusahaan oleh Privakom"
+
+              className="w-full h-auto object-cover transition-all duration-700 scale-100 group-hover:scale-105"
+
+            />
+
+          </div>
+
+        </div>
+
+
+
       </div>
+
     </main>
+
   );
+
 };
+
+
 
 export default Hero;
