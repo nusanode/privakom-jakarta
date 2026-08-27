@@ -148,8 +148,8 @@ const Hero = () => {
               </div>
 
               <div className="text-lg font-black text-dark">
-                Offline • In House • Custom
-              </div>
+  Offline • Online • In House
+</div>
 
             </div>
 
