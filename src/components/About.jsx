@@ -7,60 +7,63 @@ const About = () => {
       <div className="px-6 lg:px-12 max-w-8xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
 
         {/* =========================
-            SISI KIRI
-        ========================== */}
-        <div className="lg:w-1/2 w-full">
+    SISI KIRI
+========================== */}
+<div className="lg:w-1/2 w-full">
 
-          <div className="relative rounded-[2rem] overflow-hidden bg-primary/10 border border-gray-100 shadow-xl">
+  {/* GAMBAR */}
+  <div className="relative rounded-[2rem] overflow-hidden bg-primary/10 border border-gray-100 shadow-xl">
+    <img
+      src="/foto-1.jpeg"
+      alt="Pelatihan komputer Privakom"
+      width="900"
+      height="650"
+      loading="lazy"
+      decoding="async"
+      className="w-full h-auto object-cover"
+    />
+  </div>
 
-            <img
-              src="/foto-1.jpeg"
-              alt="Pelatihan komputer Privakom"
-              width="900"
-              height="650"
-              loading="lazy"
-              decoding="async"
-              className="w-full h-auto object-cover"
-            />
+  {/* INFORMASI LKP - DI LUAR GAMBAR */}
+  <div className="mt-5 bg-white rounded-2xl p-5 shadow-lg border border-gray-100">
+    <div className="flex items-center gap-4">
 
-            {/* Badge */}
-            <div className="absolute bottom-5 left-5 right-5 sm:right-auto bg-white/95 backdrop-blur-sm rounded-2xl p-5 shadow-lg">
+      <div className="bg-primary/20 text-dark p-3 rounded-xl shrink-0">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-7 w-7"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2.5"
+            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+          />
+        </svg>
+      </div>
 
-              <div className="flex items-center gap-4">
+      <div>
+        <p className="text-base font-black text-dark">
+          LKP PRIVAKOM
+        </p>
 
-                <div className="bg-primary/20 text-dark p-3 rounded-xl shrink-0">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-7 w-7"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2.5"
-                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                    />
-                  </svg>
-                </div>
+        <p className="text-xs sm:text-sm text-gray-500 font-bold">
+          Lembaga Kursus & Pelatihan Komputer
+        </p>
 
-                <div>
-                  <p className="text-base font-black text-dark">
-                    LKP PRIVAKOM
-                  </p>
+        <span className="inline-block mt-1 bg-primary/20 text-dark px-2.5 py-1 rounded-md text-[11px] font-black">
+          NPSN: K9999519
+        </span>
+      </div>
 
-                  <p className="text-xs sm:text-sm text-gray-500 font-bold">
-                    Lembaga Kursus & Pelatihan Komputer
-                  </p>
+    </div>
+  </div>
 
-                  <span className="inline-block mt-1 bg-primary/20 text-dark px-2.5 py-1 rounded-md text-[11px] font-black">
-                    NPSN: K9999519
-                  </span>
-                </div>
-
-              </div>
-            </div>
+</div>
+            
 
           </div>
 
