@@ -4,5 +4,5 @@ Allow: /
 Allow: /inhouse-training
 
 # Menyediakan peta situs resmi agar proses indeksasi cabang utama lebih cepat
-Sitemap: https://www.privakom.co.id
+Sitemap: https://www.privakom.co.id/sitemap.xml
 
